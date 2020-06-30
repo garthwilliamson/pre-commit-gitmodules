@@ -1,0 +1,7 @@
+---
+- id: sort-submodules
+  name: Sort Submodules
+  description: Sort submodules and remove "branch = *" from the .gitmodules file
+  entry: pre_commit_hooks/sort-submodules.py
+  language: script
+  files: .gitmodules
